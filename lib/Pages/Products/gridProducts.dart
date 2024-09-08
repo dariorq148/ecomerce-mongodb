@@ -36,7 +36,7 @@ class _GridProductsState extends State<GridProducts> {
               crossAxisSpacing: 5,
               mainAxisSpacing: 5,
             ),
-            itemCount: 6, // Número de esqueletos a mostrar
+            itemCount: 6,
             itemBuilder: (context, index) {
               return Skeletonizer(
                 enabled: true,
